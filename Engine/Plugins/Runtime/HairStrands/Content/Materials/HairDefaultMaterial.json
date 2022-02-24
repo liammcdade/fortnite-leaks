@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "Material",
+    "Name": "HairDefaultMaterial",
+    "Properties": {
+      "BaseColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionVectorParameter_1",
+        "UseConstant": false,
+        "Constant": {
+          "B": 128,
+          "G": 128,
+          "R": 128,
+          "A": 255,
+          "Hex": "FF808080"
+        }
+      },
+      "Roughness": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionScalarParameter_0",
+        "UseConstant": false,
+        "Constant": 0.5
+      },
+      "ShadingModel": "EMaterialShadingModel::MSM_Hair",
+      "ShadingModels": {
+        "ShadingModelField": 128
+      },
+      "TwoSided": true,
+      "bUsedWithHairStrands": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "C09EFCDB-4B56FD9A-923C0CBB-6AB2BF73"
+    }
+  }
+]

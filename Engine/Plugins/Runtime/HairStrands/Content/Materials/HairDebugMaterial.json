@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "Material",
+    "Name": "HairDebugMaterial",
+    "Properties": {
+      "BaseColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMax_9",
+        "UseConstant": false,
+        "Constant": {
+          "B": 128,
+          "G": 128,
+          "R": 128,
+          "A": 255,
+          "Hex": "FF808080"
+        }
+      },
+      "Roughness": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionScalarParameter_4",
+        "UseConstant": false,
+        "Constant": 0.5
+      },
+      "ShadingModel": "EMaterialShadingModel::MSM_FromMaterialExpression",
+      "ShadingModels": {
+        "ShadingModelField": 130
+      }
+    }
+  }
+]

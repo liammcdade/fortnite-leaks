@@ -1,0 +1,12 @@
+[
+  {
+    "Type": "MediaTexture",
+    "Name": "DefaultMediaTexture",
+    "Properties": {
+      "AutoClear": true,
+      "NewStyleOutput": true,
+      "LightingGuid": "CCE3D8CB-41C6DE60-CC5A5E8B-9A3E89DA",
+      "Filter": "ETextureFilter::TF_Bilinear"
+    }
+  }
+]

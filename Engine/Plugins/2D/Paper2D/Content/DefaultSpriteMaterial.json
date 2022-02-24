@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "Material",
+    "Name": "DefaultSpriteMaterial",
+    "Properties": {
+      "BaseColor": {
+        "OutputIndex": -1,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "None",
+        "UseConstant": false,
+        "Constant": {
+          "B": 128,
+          "G": 128,
+          "R": 128,
+          "A": 255,
+          "Hex": "FF808080"
+        }
+      },
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMultiply_4",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "BlendMode": "EBlendMode::BLEND_Masked",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TwoSided": true,
+      "bUsedWithNiagaraSprites": true,
+      "StateId": "0904BB2F-4C8ED41A-92ED3EB9-4754B560",
+      "LightmassSettings": {
+        "bCastShadowAsMasked": true
+      }
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D DummySpriteTexture",
+        "ObjectPath": "/Paper2D/PlaceholderTextures/DummySpriteTexture.0"
+      }
+    ]
+  }
+]

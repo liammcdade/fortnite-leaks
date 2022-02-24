@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "Material",
+    "Name": "MovieRenderQueue_MotionVectors",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionShadingPathSwitch_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "MaterialDomain": "EMaterialDomain::MD_PostProcess",
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "98B010B7-4F5F6D35-CD0D90AA-78655C38"
+    }
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_4",
+    "Outer": "LakeMesh",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "PhysicsType": "EPhysicsType::PhysType_Kinematic",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "1978956740A89E97EC60F2B68878D1FC"
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "LakeMesh",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material WorldGridMaterial",
+            "ObjectPath": "/Engine/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 99.98473,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 99.98473,
+      "LightMapResolution": 32,
+      "ExtendedBounds": {
+        "BoxExtent": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "SphereRadius": 70.71068
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup LakeMesh:BodySetup_4",
+      "ObjectPath": "/Water/Meshes/LakeMesh.0"
+    },
+    "NavCollision": null,
+    "LightingGuid": "A2359AEE-4951AA5A-1CB1A78E-3607D4B2",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 60,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 43,
+              "bEnableCollision": false,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 44
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 44,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": -51.0,
+                "Y": -51.0,
+                "Z": -5.0
+              },
+              "Max": {
+                "X": 51.0,
+                "Y": 51.0,
+                "Z": 5.0
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "CardBuildData": [
+              {
+                "OBB": {
+                  "Origin": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": -0.0
+                  },
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": -1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": -0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 0.09773636,
+                    "Y": -0.35679245,
+                    "Z": 0.0
+                  },
+                  "Extent": {
+                    "X": 57.104652,
+                    "Y": 56.617546,
+                    "Z": 7.4801674
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 5
+              }
+            ]
+          }
+        }
+      ],
+      "NaniteResources": {
+        "RootClusterPage": "",
+        "StreamableClusterPages": {
+          "BulkDataFlags": "0",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0x20D3"
+        },
+        "ImposterAtlas": [],
+        "HierarchyNodes": [],
+        "HierarchyRootOffsets": [],
+        "PageStreamingStates": [],
+        "PageDependencies": [],
+        "PositionPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "ResourceFlags": 0
+      },
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 0.0
+        },
+        "SphereRadius": 70.71068
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

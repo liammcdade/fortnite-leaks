@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "Material",
+    "Name": "DefaultImagePlateMaterial",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionTextureSample_1",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TwoSided": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "7B2E7F0F-4C592C9D-EA106B89-57B7939E"
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D DefaultDiffuse",
+        "ObjectPath": "/Engine/EngineMaterials/DefaultDiffuse.0"
+      }
+    ]
+  }
+]
